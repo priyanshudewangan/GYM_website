@@ -27,7 +27,7 @@ export default function App() {
       } else {
         setFormStatus('Error during registration.');
       }
-    } catch (err) {
+    } catch {
       setFormStatus('Network error. Is backend running?');
     }
   };
