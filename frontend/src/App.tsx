@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { Dumbbell, Users, ClipboardCheck, MessageSquare, Menu, X, ArrowRight, CheckCircle2 } from 'lucide-react';
-import { motion, Variants } from 'framer-motion';
+import { Dumbbell, Users, ClipboardCheck, Menu, X, ArrowRight, CheckCircle2 } from 'lucide-react';
+import { motion } from 'framer-motion';
+import type { Variants } from 'framer-motion';
 
 export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
